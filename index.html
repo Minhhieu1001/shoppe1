@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoppe</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+<style>
+.row .col-1 .card img{
+    height: 100px;
+    width: 98px;
+    
+}
+.card{
+    
+    height: 200px;
+    width: 150px;
+    margin-left: 5px;
+}
+hr{
+  background-color: #ff4c2c;
+  height: 5px;
+}
+</style>
+<body>
+    <div class="container-fluid">
+        <div class="row text-light">
+            <div class="col-1" style="background-color:#ff4c2c;"></div>
+            <div class="col-1" style="background-color:#ff4c2c;"><p>người bán</p></div>
+            <div class="col-2" style="background-color:#ff4c2c;">Trở thành người bán shoppe</div>
+            <div class="col-1" style="background-color:#ff4c2c;">Tải ứng dụng</div>
+            <div class="col-2" style="background-color:#ff4c2c;">
+            <ul style="display:flex; list-style-type: none;">
+                <li><p>| kết nối : </p></li>
+                <li><img src="./img/fb.png" alt="" style="border-radius: 20%;  margin-left: 3px;"></li>
+                <li><img src="./img/inta.png" alt=""style="border-radius: 20%; margin-left: 3px;"></li>
+            </ul>   
+        </div>
+            <div class="col-2" style="background-color:#ff4c2c;">
+                <ul style="display:flex; list-style-type: none;">
+                    <li><img src="./img/chuong.png" alt="" style="border-radius: 40%;  margin-left: 3px;"></li>
+                    <li><p>Thông báo | Hỗ Trợ</p></li>
+                   
+                </ul>  
+        </div>
+            <div class="col-1" style="background-color:#ff4c2c;"> Tiếng Việt</div>
+            <div class="col-2" style="background-color:#ff4c2c;"> <a href="" style="color: white;" data-toggle="modal" data-target="#mymodal">đăng ký</a> | đăng nhập</div>
+           
+        </div>
+        <!-- row-2 -->
+        <div class="row text-light">
+            <div class="col-1"style="background-color:#ff4c2c;"></div>
+            <div class="col-3"style="background-color:#ff4c2c;">
+                <ul  style="display:flex; list-style-type: none;">
+                    <li class=""><img src="./img/do.png" alt="" style="border-radius: 10%;position: relative;top: -20px; "></li>
+                    <li class=""><h2>shoppe</h2></li>
+                </ul>
+            </div>
+            <div class="col-7 form-inline"style="background-color:#ff4c2c;">
+                <div></div>
+
+                <input type="search" class="form-control w-75" placeholder="Shoppe bao ship 0đ - Đăng kí ngay" style="top: -10px;position: relative;">
+                <br>
+                <br>
+                <ul style="display:flex; list-style-type: none;"> 
+                    <li><img src="./img/search.png" alt="" style="position: relative; left: -90px;top: -1px; border-radius: 10%;"></li>
+                </ul>
+           
+            </div>
+            <div class="col-1 float-left"style="background-color:#ff4c2c;">
+                <img src="./img/dohang.png" alt=""  style="border-radius: 20%;margin-left: -130px;">
+            </div>
+        </div>
+        <div class="row text-light">
+            <div class="col-4" style="background-color:#ff4c2c;"></div>
+            <div class="col-6" style="background-color:#ff4c2c;">
+            <p>Săn iphone 15promax 1k | Chân váy Jean | Lovito | Áo kiểu nữ | Son | Áo thun nam form rộng | Váy dài </p>
+            </div>
+            <div class="col-2" style="background-color:#ff4c2c;"></div>
+
+        </div>
+        <!-- modal -->
+
+        <div class="modal fade" id="mymodal" >
+          <div class="modal-dialog">
+            <div class="modal-content" >
+              <div class="modal-header">
+                <h3>đăng kí tài khoản</h3>
+                <button type="button" data-dismiss="modal" class="close">&times;</button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col">
+                    <label for="">Tên đăng nhập</label>
+                    <input type="text" class="form-control" placeholder="số điện thoại/email">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <label for="">mật khẩu</label>
+                    <input type="password" class="form-control" placeholder="password">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <label for="">nhập lại mật khẩu</label>
+                    <input type="password" class="form-control" placeholder="password">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <label for="">mã xác thực</label>
+                    <input type="text" class="form-control" placeholder="">
+                    <h4 style="color: #ff4c2c;">AHT7K3</h4>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-6">
+                    <button type="button" class="form-control btn btn-outline-success"> đăng kí</button>
+                    
+                  </div>
+                  <div class="col-6">
+                  
+                    <button type="button" class="form-control btn btn-outline-danger"> hủy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </div>  
+    <br>
+    <!-- container-2 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <div id="carouselslide" class="carousel slide"  data-ride="carousel" >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/1.png" alt="" class="d-block w-100" style="height: 250px;">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/2.png" class="d-block w-100" alt="" style="height: 250px;">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/3.png" class="d-block w-100" alt="" style="height: 250px;">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./img/4.png" class="d-block w-100" alt="" style="height: 250px;">
+                          </div>
+                         
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselslide" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselslide" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    </button>
+                  
+                </div>             
+          </div>
+         
+               
+
+            <div class="col-5">
+                <div class="row">
+                    <div class="col-12">
+
+                        <div>
+                            <img src="./img/nho1.png" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div>
+                            <img src="./img/nho2.png" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row text-center" style="font-size: 10px; box-shadow: 1px 1px 1px 1px">
+            <div class="col-1"></div>
+            <div class="col-1">
+            <img src="./img/xtra.png" alt="">
+            <p>Voucher giảm 1 triệu</p>
+            </div>
+            <div class="col-1">
+            <img src="./img/freeship.png" alt="">
+            <p>freeship có shoppe</p>
+            </div>
+            <div class="col-1">
+            <img src="./img/sale.png" alt="">
+            <p>Khung giờ săn sale</p>
+            </div>
+            <div class="col-1">
+            <img src="./img/magg.png" alt="">
+            <p>mã giảm giá </p>
+            </div>
+            <div class="col-1">
+            <img src="./img/re.png" alt="">
+            <p>shoppe siêu rẻ</p>
+            </div>
+            <div class="col-1">
+            <img src="./img/style.png" alt="">
+            <p>style voucher 40%</p>
+            </div>
+            <div class="col-1">
+            <img src="./img/quocte.png" alt="">
+            <p>quốc tế deal siêu rẻ</p>
+            </div>
+            <div class="col-1">
+            <img src="./img/nap.png" alt="">
+            <p>nạp thẻ và dịch vụ</p>
+            </div>
+            <div class="col-1">
+            <img src="./img/sach.png" alt="">
+            <p>sách báo thông tin</p>
+            </div>
+            <div class="col-1">
+            <img src="./img/xe.png" alt="">
+            <p>siêu xe giá rẻ</p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12">
+                <img src="./img/header.png" alt="" style="border-radius: 20px; max-width:100%;">
+            </div>
+        </div>
+    </div>
+    <!-- container 3 -->
+     <br>
+     <div class="container">
+        <div class="row">
+           <h4>DANH MỤC</h4>
+        </div>
+        <br>
+        <div class="row text-center" style="">
+           
+            <div class="col-1"  style="margin-left: 70px;">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/aonam.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Thời trang nam</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/dienthoai.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">ĐT & phụ kiện</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/tivi.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Thiết bị điện tử</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/laptpop.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">máy tính laptop</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/mayanh.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">máy ảnh</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/dongho.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">đồng hồ nam</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/xe.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">xe máy</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/giaynam.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">giày dép nam</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/naunuoc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">thiết bị gia dụng</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/bong.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Thể thao</p>
+                    </div>
+                  </div>
+            </div>
+            
+
+            
+            
+        </div>
+
+        <br>
+        <div class="row text-center" style="">
+           
+            <div class="col-1"  style="margin-left: 70px;">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/ao.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Thời trang nữ</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/mebe.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Mẹ và bé</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/noi.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">đời sống</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/sacdep.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">sắc đẹp</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/suckhoe.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Sức khỏe</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/caogot.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">giày dép nữ</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/tui.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">túi ví nữ</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/phukien.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Trang sức</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/solola.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">bách hóa online</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-1">
+                <div class="card" style="width: 6rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                    <img src="./img/sach.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">sách online</p>
+                    </div>
+                  </div>
+            </div>
+            
+            
+
+            
+            
+        </div>
+     </div>
+     <br>
+     <!-- container4 -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3 style="color: #ff4c2c;">FLASH SALE <span style="font-size: 15px; background-color: black;color: rgb(249, 245, 10); border-radius: 5px; padding: 5px;">10:23:58</span></h3>
+        </div>
+      </div>
+      <br>
+      <div class="row text-center" style="background-color: rgb(243, 243, 237);">
+        <div class="col-2">
+          <div class="card" style="width: 9rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+            <img src="./img/sale1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="color: #ff4c2c; font-size: 20px;">đ 498,000</p>
+              <p style="background-color: #ff4c2c; color: white; border-radius: 20px;">đã bán 42</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 9rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+            <img src="./img/sale2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="color: #ff4c2c; font-size: 20px;">đ 418,000</p>
+              <p style="background-color: #ff4c2c; color: white; border-radius: 20px;">đã bán 44</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 9rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+            <img src="./img/sale3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="color: #ff4c2c; font-size: 20px;">đ 445,000</p>
+              <p style="background-color: #ff4c2c; color: white; border-radius: 20px;">đã bán 26</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 9rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+            <img src="./img/sale4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="color: #ff4c2c; font-size: 20px;">đ 159,000</p>
+              <p style="background-color: #ff4c2c; color: white; border-radius: 20px;">đang bán chạy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 9rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+            <img src="./img/sale5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="color: #ff4c2c; font-size: 20px;">đ 11,000</p>
+              <p style="background-color: #ff4c2c; color: white; border-radius: 20px;">đang bán chạy</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="card" style="width: 9rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+            <img src="./img/sale6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text" style="color: #ff4c2c; font-size: 20px;">đ 108,000</p>
+              <p style="background-color: #ff4c2c; color: white; border-radius: 20px;">chỉ còn 5</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <br>
+      <br>
+      <br>
+        <div class="row">
+            <div class="col-4"><img src="./img/11.png" alt="" style="border-radius: 20px; height: 70px;"></div>
+            <div class="col-4"><img src="./img/22.png" alt="" style="border-radius: 20px; height: 70px;"></div>
+            <div class="col-4"><img src="./img/33.png" alt="" style="border-radius: 20px; height: 70px;"></div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-2" style="color: red;"><h4>SHOPPE MAIL</h4></div>
+        <div class="col-3"><p>&star; hàng trả miễn phí 15 ngày</p></div>
+        <div class="col-3"><p>&star; Hàng chính hãng 100%</p></div>
+        <div class="col-2">&star;Miễn phí vận chuyển</div>
+        <div class="col-2 text-right"><a href="" style="color: red;">xem tất cả >></a></div>
+        
+      </div>
+    </div>
+    <br>
+      <!-- container 5 -->
+       <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/h1.png" class="d-block w-100" alt="..." style="height: 480px; border-radius: 5px;">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/h2.png" class="d-block w-100" alt="..." style="height: 480px; border-radius: 5px;">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/h3.png" class="d-block w-100" alt="..." style="height: 480px; border-radius: 5px;">
+                </div>
+              </div>
+             <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-4">
+                <div class="card" style="width: 12rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                  <img src="./img/a1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 12rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                  <img src="./img/a9.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 12rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                  <img src="./img/a3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+              <div class="col-4">
+                <div class="card" style="width: 12rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                  <img src="./img/a6.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 12rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                  <img src="./img/a7.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 12rem; background-color: rgb(242, 248, 246); font-size: 15px;">
+                  <img src="./img/a5.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+       <!-- container5 -->
+        <br>
+        <br>
+        <div class="container">
+          <div class="row">
+            <div class="col text-center" style="color: #ff4c2c;">
+              <h4>GỢI Ý HÔM NAY</h4>
+            
+            </div>
+          </div>
+          <div class="row">
+          <div class="col">
+          <hr>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q1.png" class="card-img-top" alt="...">
+                <p>Nghệ Gấc Hạ Thổ Tây Nguyên</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 199.000</p>
+                
+              </div>
+            </div>
+
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q2.png" class="card-img-top" alt="...">
+                <p>đồng hồ thông minh chống thấm</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 299.000</p>
+                
+              </div>
+            </div>
+
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q3.png" class="card-img-top" alt="...">
+                <p>giày bóng đá sân nhân tạo</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 354.000</p>
+                
+              </div>
+            </div>
+
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q4.png" class="card-img-top" alt="...">
+                <p>tai nghe không giây blutoot</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 239.000</p>
+                
+              </div>
+            </div>
+
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q5.png" class="card-img-top" alt="...">
+                <p>dép bánh mì 2 màu tuy chọn</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 45.000</p>
+                
+              </div>
+            </div>
+
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q6.png" class="card-img-top" alt="...">
+                <p>áo thể thao kiểu dáng năng động</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 99.000</p>
+                
+              </div>
+            </div>
+
+            
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q7.png" class="card-img-top" alt="...">
+                <p>dù vãi chỗng mưa năng ngoài trời</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 79.000</p>
+                
+              </div>
+            </div>
+
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q8.png" class="card-img-top" alt="...">
+                <p>áo phông rộng dành cho nữ thời trang</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 69.230</p>
+                
+              </div>
+            </div>
+
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q9.png" class="card-img-top" alt="...">
+                <p>tủ lạnh tiết kiệm điện toshiba</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 4.199.000</p>
+                
+              </div>
+            </div>
+
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q10.png" class="card-img-top" alt="...">
+                <p>sạc điện thoại kết nối 3 cổng vào</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 159.000</p>
+                
+              </div>
+            </div>
+
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q13.png" class="card-img-top" alt="...">
+                <p>kính râm đi biễn chống nắng</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 49.000</p>
+                
+              </div>
+            </div>
+
+            <div class="col-2 text-center">
+              <div class="card" style="width: 10rem; background-color: rgb(242, 248, 246); font-size: 15px; height: 245px;">
+                <img src="./img/q12.png" class="card-img-top" alt="...">
+                <p>thời trang nữ phông rộng 2 màu</p>
+                <p style="color: #ff4c2c; font-size: 20px;">đ 99.000</p>
+                
+              </div>
+            </div>
+
+          
+          </div>
+          <br>
+          <div class="row">
+            <div class="col text-center">
+              <a href="" style="color: #ff4c2c;">xem thêm sản phẩm khác >></a>
+            </div>
+          </div>
+          
+        </div>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h5 style="font-size: 14px;">SHOPEE - GÌ CŨNG CÓ, MUA HẾT Ở SHOPEE</h5>
+            <p>Shopee - ứng dụng mua sắm trực tuyến thú vị, tin cậy, an toàn và miễn phí! Shopee là nền tảng giao dịch trực tuyến hàng đầu ở Đông Nam Á, có trụ sở chính ở Singapore, đã có mặt ở khắp các khu vực Singapore, Malaysia, Indonesia, Thái Lan, Philippines, Đài Loan, Brazil, México, Colombia, & Chile. Với sự đảm bảo của Shopee, bạn sẽ mua hàng trực tuyến an tâm và nhanh chóng hơn bao giờ hết!</p>
+          <h5>MUA SẮM VÀ BÁN HÀNG ONLINE ĐƠN GIẢN, NHANH CHÓNG VÀ AN TOÀN</h5>  
+              <p>Nếu bạn đang tìm kiếm một trang web để mua và bán hàng trực tuyến thì Shopee.vn là một sự lựa chọn tuyệt vời dành cho bạn. Shopee là trang thương mại điện tử cho phép người mua và người bán tương tác và trao đổi dễ dàng thông tin về sản phẩm và chương trình khuyến mãi của shop. Do đó, việc mua bán trên Shopee trở nên nhanh chóng và đơn giản hơn. Bạn có thể trò chuyện trực tiếp với nhà bán hàng để hỏi trực tiếp về mặt hàng cần mua. Còn nếu bạn muốn tìm mua những dòng sản phẩm chính hãng, uy tín, Shopee Mall chính là sự lựa chọn lí tưởng dành cho bạn. Để bạn có thể dễ dàng khi tìm hiểu và sử dụng sản phẩm, Shopee Blog - trang blog thông tin chính thức của Shopee - sẽ giúp bạn có thể tìm được cho mình các kiến thức về xu hướng thời trang, review công nghệ, mẹo làm đẹp, tin tức tiêu dùng và deal giá tốt bất ngờ.</p>
+              <p>Đến với Shopee, cơ hội để trở thành một nhà bán hàng dễ dàng hơn bao giờ hết. Chỉ với vài thao tác trên ứng dụng, bạn đã có thể đăng bán ngay những sản phẩm của mình. Không những thế, các nhà bán hàng có thể tự tạo chương trình khuyến mãi trên Shopee để thu hút người mua với những sản phẩm có mức giá hấp dẫn. Khi đăng nhập tại Shopee Kênh người bán, bạn có thể dễ dàng phân loại sản phẩm, theo dõi đơn hàng, chăm sóc khách hàng và cập nhập ngay các hoạt động của shop</p>
+              <p>Bên cạnh đó, Shopee hợp tác với nhiều đơn vị vận chuyển uy tín trên thị trường như SPX,... nhằm cung cấp dịch vu giao nhận và vận chuyển tiện lợi cho cả khách hàng và người bán. Cùng với nhiều ưu đãi với chi phí giao hàng hợp lý, Shopee đảm bảo cho khách hàng trải nghiệm mua sắm thuận tiện nhất.</p>
+              <h5>TẢI ỨNG DỤNG SHOPEE NGAY ĐỂ MUA BÁN ONLINE MỌI LÚC, MỌI NƠI</h5>
+              <p>Ưu điểm của ứng dụng Shopee là cho phép bạn mua và bán hàng mọi lúc, mọi nơi. Bạn có thể tải ứng dụng Shopee cũng như đăng sản phẩm bán hàng một cách nhanh chóng và tiện lợi. Ngoài ra, ứng dụng Shopee còn có những ưu điểm sau:</p>
+              <i>> Giao diện thân thiện, đơn giản, dễ sử dụng. Bạn sẽ dễ dàng thấy được ngay những sản phẩm nổi bật cũng như dễ dàng tìm đến các ô tìm kiếm, giỏ hàng hoặc tính năng chat liền tay.
+              </i><br>
+              <i>> Ứng dụng tích hợp công nghệ quản lý đơn mua và bán hàng tiện lợi trên cùng một tài khoản. Bạn sẽ vừa là người mua hàng, vừa là người bán hàng rất linh hoạt, dễ dàng.
+              </i><br>
+              <i>> Cập nhập thông tin khuyến mãi, Shopee Flash Sale nhanh chóng và liên tục</i>
+              <h5>MUA HÀNG CHÍNH HÃNG TỪ CÁC THƯƠNG HIỆU LỚN VỚI SHOPEE</h5>
+              <p>Mua hàng trên Shopee luôn là một trải nghiệm ấn tượng. Dù bạn đang có nhu cầu mua bất kỳ mặt hàng thời trang nam, thời trang nữ, đồng hồ, điện thoại, máy tính & laptop,... thì Shopee cũng sẽ đảm bảo cung cấp cho bạn những sản phẩm ưng ý. Bên cạnh đó, Shopee cũng có sự tham gia của các thương hiệu hàng đầu thế giới ở đa dạng nhiều lĩnh vực khác nhau. Trong đó có thể kể đến Samsung, OPPO, Xiaomi, Innisfree, Unilever, P&G, Biti’s,...Các thương hiệu này hiện cũng đã có cửa hàng chính thức trên Shopee Mall với hàng trăm mặt hàng chính hãng, được cập nhập liên tục. Là một kênh bán hàng uy tín, Shopee luôn cam kết mang lại cho khách hàng những trải nghiệm mua sắm online giá rẻ, an toàn và tin cậy. Mọi thông tin về người bán và người mua đều được bảo mật tuyệt đối. Các hoạt động giao dịch thanh toán tại Shopee luôn được đảm bảo diễn ra nhanh chóng, an toàn. Một vấn đề nữa khiến cho các khách hàng luôn quan tâm đó chính là mua hàng trên Shopee có đảm bảo không.
+
+                Shopee luôn cam kết mọi sản phẩm trên Shopee, đặc biệt là Shopee Mall đều là những sản phẩm chính hãng, đầy đủ tem nhãn, bảo hành từ nhà bán hàng. Ngoài ra, Shopee bảo vệ người mua và người bán bằng cách giữ số tiền giao dịch đến khi người mua xác nhận đồng ý với đơn hàng và không có yêu cầu khiếu nại, trả hàng hay hoàn tiền nào. Thanh toán sau đó sẽ được chuyển đến cho người bán. Đến với Shopee ngay hôm nay để mua hàng online giá rẻ và trải nghiệm dịch vụ chăm sóc khách hàng tuyệt vời tại đây. Đặc biệt khi mua sắm trên Shopee Mall, bạn sẽ được miễn phí vận chuyển, giao hàng tận nơi và 7 ngày miễn phí trả hàng. Ngoài ra, khách hàng có thể sử dụng Shopee Xu để đổi lấy mã giảm giá có giá trị cao và voucher dịch vụ hấp dẫn. Tiếp đến là Shopee Video, Shopee Live, Shopee Home Club, Shopee Mum Club, Shopee Beauty Club và Shopee Book Club với các ưu đãi độc quyền từ các thương hiệu lớn có những khách hàng đã đăng ký làm thành viên. Hãy truy cập ngay Shopee Việt Nam hoặc tải ngay ứng dụng Shopee về điện thoại ngay hôm nay!   
+                
+                </p>
+
+
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <p style="font-weight: bold; font-size: 13px;">CHĂM SÓC KHÁCH HÀNG</p>
+              <p>Trung Tâm Trợ Giúp</p>
+              <p>Shopee Blog</p>
+              <p>Shopee Mall</p>
+              <p>Hướng Dẫn Mua Hàng</p>
+              <p>Hướng Dẫn Bán Hàng</p>
+              <p>Thanh Toán</p>
+              <p>Shopee Xu</p>
+            </div>
+            <div class="col-2">
+              <p style="font-weight: bold; font-size: 13px;">VỀ SHOPEE</p>
+              <p>Giới Thiệu Về Shopee </p>
+              <p>Tuyển Dụng</p>
+              <p>Điều Khoản Shopee</p>
+              <p>Chính Sách Bảo Mật</p>
+              <p>Chính Hãng</p>
+              <p>Kênh Người Bán</p>
+              <p>Flash Sales</p>
+             
+            </div>
+            <div class="col-4">
+              <p style="font-weight: bold; font-size: 13px;">THANH TOÁN</p>
+              <ul style="list-style-type: none;">
+                <li><img src="./img/tt2.png" alt="" style="border-radius: 5px; margin-left: -45px;"></li><br>
+                <li><img src="./img/tt3.png" alt="" style="border-radius: 5px; margin-left: -45px;"></li><br>
+                <li><img src="./img/tt1.png" alt="" style="border-radius: 5px; margin-left: -45px;"></li><br>
+              </ul>
+              <p style="font-weight: bold; font-size: 13px;">ĐƠN VỊ VẬN CHUYỂN</p>
+              <img src="../img/123.png" alt="">
+
+            </div>
+            <div class="col-2">
+              <p style="font-weight: bold; font-size: 13px;">THEO DÕI CHÚNG TÔI</p>
+              <ul style="list-style-type: none;">
+                <li><img src="./img/fb1.png" alt="" style="border-radius: 5px;  margin-left: -43px;"> facebook</li>
+                <li><img src="./img/inga.png" alt="" style="border-radius: 5px; margin-left: -43px;"> intagram</li>
+                <li><img src="./img/in.png" alt="" style="border-radius: 5px;   margin-left: -43px;"> linkedln</li>
+              </ul>
+
+              
+            </div>
+            <div class="col-2">
+              <p style="font-weight: bold; font-size: 13px;">TẢI ỨNG DỤNG SHOPEE NGAY THÔI</p>
+              <img src="./img/qr.png" alt="" style="height: 70px; width: 150px;">
+            </div>
+          </div>
+        </div>
+        <hr>
+
+    
+</body>
+</html>
